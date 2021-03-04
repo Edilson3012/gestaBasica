@@ -26,10 +26,15 @@ O framework Laravel é um software de código aberto licenciado sob a [MIT licen
 ## Sobre mim
 
 Sou o Edilson Murbach, desenvolvedor e estudante de programação.
+
 Comecei na área de TI como estágiário de Testes de Software na <strong>Sigma</strong>, onde permaneci durante pouco mais de um ano.
+
 Em seguida, atuei com desenvolvimento Delphi desktop, cerca de 6 meses.
+
 E fui novamente para a área de Testes de software novamente <3 hehe e após alguns meses, a promoção de cargo de junior para pleno chegou!!! :D
+
 Mas, a vontade de programar corria novamente nas minhas veias hahaha
+
 Após um período, houve a esperada mudança de cargo de teste para oficialmente Desenvolvedor!!!
 
 Atualmente, utilizo o framework [Zend](https://framework.zend.com/), muito fácil e rápido de se aprender!
