@@ -19,9 +19,9 @@
                 <div class="card-body">
                     <form action="{{ route('categories.search') }}" class="form form-inline" method="POST">
                         @csrf
-                        <input type="text" name="tx_title" placeholder="Título" class="form-control">
-                        <input type="text" name="tx_url" placeholder="URL" class="form-control">
-                        <input type="text" name="tx_description" placeholder="Descrição" class="form-control" >
+                        <input type="text" name="tx_title" placeholder="Título" class="form-control" value="{{ $data['tx_title'] ?? '' }}">
+                        <input type="text" name="tx_url" placeholder="URL" class="form-control" value="{{ $data['tx_url'] ?? '' }}" >
+                        <input type="text" name="tx_description" placeholder="Descrição" class="form-control" value="{{ $data['tx_description'] ?? '' }}" >
                         <button type="submit" class="btn btn-success">Pesquisar</button>
                     </form>
 

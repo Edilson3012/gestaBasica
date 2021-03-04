@@ -144,6 +144,7 @@ class CategoryController extends Controller
             })
             ->get();
             
+        // dd($categories);
         return view('admin.categories.index', compact('categories', 'data'));
     }
 }
