@@ -19,12 +19,14 @@
                 <div class="card-body">
                     <form action="{{ route('categories.search') }}" class="form form-inline" method="POST">
                         @csrf
-                        <input type="text" name="search" placeholder="Pesquisar" class="form-control">
+                        <input type="text" name="tx_title" placeholder="Título" class="form-control">
+                        <input type="text" name="tx_url" placeholder="URL" class="form-control">
+                        <input type="text" name="tx_description" placeholder="Descrição" class="form-control" >
                         <button type="submit" class="btn btn-success">Pesquisar</button>
                     </form>
 
-                    @if (isset($search))
-                        <p><strong>Resultados para: </strong> {{ $search }}</p>
+                    @if (isset($data))
+                        <p><strong>Resultados para: </strong> {{ $data }}</p>
                     @endif
 
                 </div>

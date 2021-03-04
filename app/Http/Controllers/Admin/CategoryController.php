@@ -114,15 +114,36 @@ class CategoryController extends Controller
         return redirect()->route('categories');
     }
 
-    public function search(Request $request){
+    public function search(Request $request)
+    {
 
-        $search = $request->search;
+        $data = $request->all();
+        // dd($data['tx_title']);
+        /*
         $categories = DB::table('categories')
             ->where('tx_title', $search )
             ->orWhere('tx_url', $search)
             ->orWhere('tx_description', 'LIKE', "%{$search}%")
             ->get();
+        */
 
-        return view('admin.categories.index', compact('categories', 'search'));        
+        $categories = DB::table('categories')
+            ->where(function ($query) use ($data) {
+                if (isset($data['tx_title'])) {
+                    $title = $data['tx_title'];
+                    $query->where('tx_title', 'LIKE', "%{$title}%");
+                }
+                if (isset($data['tx_url'])) {
+                    $url = $data['tx_url'];
+                    $query->orWhere('tx_url', 'LIKE', "%{$url}%");
+                }
+                if (isset($data['tx_description'])) {
+                    $desc = $data['tx_description'];
+                    $query->where('tx_description', 'LIKE', "%{$desc}%");
+                }
+            })
+            ->get();
+            
+        return view('admin.categories.index', compact('categories', 'data'));
     }
 }
