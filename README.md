@@ -7,20 +7,11 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## Sobre o Laravel
 
 Laravel é um framework de aplicação web com sintaxe expressiva e elegante. O desenvolvimento com laravel é muito bom, proporcionando uma experiência agradável, facilitando as tarefas comuns usadas em muitos projetos na web.
 Link oficial do Laravel:
  - [Laravel](https://laravel.com/)
-
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
 ## Código de Conduta
 
@@ -35,7 +26,7 @@ O framework Laravel é um software de código aberto licenciado sob a [MIT licen
 ## Sobre mim
 
 Sou o Edilson Murbach, desenvolvedor e estudante de programação.
-Comecei na área de TI como estágiário de Testes de Software na ##Sigma, onde permaneci durante pouco mais de um ano.
+Comecei na área de TI como estágiário de Testes de Software na <strong>Sigma</strong>, onde permaneci durante pouco mais de um ano.
 Em seguida, atuei com desenvolvimento Delphi desktop, cerca de 6 meses.
 E fui novamente para a área de Testes de software novamente <3 hehe e após alguns meses, a promoção de cargo de junior para pleno chegou!!! :D
 Mas, a vontade de programar corria novamente nas minhas veias hahaha
