@@ -9,15 +9,10 @@
 
 ## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Laravel é um framework de aplicação web com sintaxe expressiva e elegante. O desenvolvimento com laravel é muito bom, proporcionando uma experiência agradável, facilitando as tarefas comuns usadas em muitos projetos na web.
+Link oficial do Laravel:
+ - [Laravel](https://laravel.com/)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
@@ -27,36 +22,33 @@ Laravel has the most extensive and thorough [documentation](https://laravel.com/
 
 If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## Laravel Sponsors
+## Código de Conduta
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+Para garantir que a comunidade Laravel seja bem-vinda a todos, leia e siga o [Código de Conduta](https://laravel.com/docs/contributions#code-of-conduct).
 
-### Premium Partners
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/)**
-- **[OP.GG](https://op.gg)**
+## Licença
 
-## Contributing
+O framework Laravel é um software de código aberto licenciado sob a [MIT license](https://opensource.org/licenses/MIT).
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-## Code of Conduct
+## Sobre mim
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Sou o Edilson Murbach, desenvolvedor e estudante de programação.
+Comecei na área de TI como estágiário de Testes de Software na ##Sigma, onde permaneci durante pouco mais de um ano.
+Em seguida, atuei com desenvolvimento Delphi desktop, cerca de 6 meses.
+E fui novamente para a área de Testes de software novamente <3 hehe e após alguns meses, a promoção de cargo de junior para pleno chegou!!! :D
+Mas, a vontade de programar corria novamente nas minhas veias hahaha
+Após um período, houve a esperada mudança de cargo de teste para oficialmente Desenvolvedor!!!
 
-## Security Vulnerabilities
+Atualmente, utilizo o framework [Zend](https://framework.zend.com/), muito fácil e rápido de se aprender!
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Por ter projetos novos e por curiosidade, estou estudando Laravel, [Lumen](https://lumen.laravel.com/), e o bom e velho [PHP](https://www.php.net/).
 
-## License
+## Contatos
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+- [Linkedin](https://www.linkedin.com/in/edilson-gotardi-murbach/)
+- [WhatsApp](https://api.whatsapp.com/send?phone=5514996623659&text=Ol%C3%A1%2C%20te%20encontrei%20pelo%20GitHub%20e%20gostaria%20de%20conversar!)
+
+
+
