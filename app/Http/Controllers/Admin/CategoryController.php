@@ -17,7 +17,9 @@ class CategoryController extends Controller
     public function index()
     {
         //por padrão, a paginação é feita por 15 registros
-        $categories = DB::table('categories')->paginate(2);
+        $categories = DB::table('categories')
+            ->orderBy('id_category', 'desc')
+            ->paginate();
 
         return view('admin.categories.index', compact('categories'));
     }
@@ -143,7 +145,8 @@ class CategoryController extends Controller
                     $query->where('tx_description', 'LIKE', "%{$desc}%");
                 }
             })
-            ->get();
+            ->orderBy('id_category', 'desc')
+            ->paginate();
             
         // dd($categories);
         return view('admin.categories.index', compact('categories', 'data'));
