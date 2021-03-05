@@ -16,7 +16,8 @@ class CategoryController extends Controller
      */
     public function index()
     {
-        $categories = DB::table('categories')->get();
+        //por padrão, a paginação é feita por 15 registros
+        $categories = DB::table('categories')->paginate(2);
 
         return view('admin.categories.index', compact('categories'));
     }

@@ -23,12 +23,11 @@
                         <input type="text" name="tx_url" placeholder="URL" class="form-control" value="{{ $data['tx_url'] ?? '' }}" >
                         <input type="text" name="tx_description" placeholder="Descrição" class="form-control" value="{{ $data['tx_description'] ?? '' }}" >
                         <button type="submit" class="btn btn-success">Pesquisar</button>
+
+                        {{-- @if (isset($data))
+                            <p><strong>Resultados para: </strong> {{ $data }}</p>
+                        @endif --}}
                     </form>
-
-                    @if (isset($data))
-                        <p><strong>Resultados para: </strong> {{ $data }}</p>
-                    @endif
-
                 </div>
             </div>
         </div>
@@ -65,6 +64,16 @@
                         </tbody>
                         </thead>
                     </table>
+
+                    {{-- @if (isset($data))
+                        {!! $categories->appends($data)->links() !!}
+                    @else
+                        {{ $categories->links() }}
+                    @endif --}}
+
+                    {{-- {{ $categories->appends($data)->links() }} --}}
+                    {!! $categories->links() !!}
+
                 </div>
             </div>
         </div>
