@@ -30,16 +30,16 @@
                         <input type="text" name="tx_url" placeholder="URL" class="form-control" value="{{ $data['tx_url'] ?? '' }}" >
                         <input type="text" name="tx_description" placeholder="Descrição" class="form-control" value="{{ $data['tx_description'] ?? '' }}" >
                         <button type="submit" class="btn btn-success">Pesquisar</button>
-
-                        {{-- @if (isset($data))
-                            <p><strong>Resultados para: </strong> {{ $data }}</p>
-                        @endif --}}
                     </form>
+                    @if (isset($data))
+                        <a href="{{route('categories')}}">Limpar filtros</a>
+                    @endif
                 </div>
             </div>
         </div>
 
         <div class="col-md-12">
+            @include('admin.categories.includes.alerts')
             <div class="card card-primary">
                 <div class="card-header">Listagem de Categorias</div>
                 <div class="card-body">
