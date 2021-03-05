@@ -2,6 +2,7 @@
 
 // use App\Http\Controllers\Admin\CategoryController;
 
+use App\Http\Controllers\Admin\ProductController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -15,6 +16,8 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+Route::get('/admin/products', [ProductController::class, 'index'])->name('product.index');
 
 Route::get('admin', function ($id) {
     
