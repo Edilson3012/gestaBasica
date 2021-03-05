@@ -7,6 +7,14 @@
         <a href="{{ route('categories') }}" class="btn btn-success">Voltar</a>
         Detalhes da Categoria: <b>{{ $category->tx_title }}</b>
     </h1>
+
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="{{ route('admin') }}">Dashboard</a></li>
+          <li class="breadcrumb-item" aria-current="page"><a href="{{ route('categories') }}">Categorias</a></li>
+          <li class="breadcrumb-item active" aria-current="page"><a href="{{ route('categories.show', $category->id_category) }}">Detalhes</a></li>
+        </ol>
+    </nav>
 @stop
 
 @section('content')

@@ -16,6 +16,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('admin', function ($id) {
+    
+})->name('admin');
+
 Route::get('/admin/categories', [App\Http\Controllers\Admin\CategoryController::class, 'index'])->name('categories');
 Route::get('/admin/categories/create', [App\Http\Controllers\Admin\CategoryController::class, 'create'])->name('categories.create');
 Route::post('/admin/categories/store', [App\Http\Controllers\Admin\CategoryController::class, 'store'])->name('categories.store');
@@ -24,7 +28,7 @@ Route::put('/admin/categories/{id}/update', [App\Http\Controllers\Admin\Category
 Route::get('/admin/categories/{id}/show', [App\Http\Controllers\Admin\CategoryController::class, 'show'])->name('categories.show');
 Route::get('/admin/categories/{id}/destroy', [App\Http\Controllers\Admin\CategoryController::class, 'destroy'])->name('categories.destroy');
 
-Route::post('/admin/categories/search', [App\Http\Controllers\Admin\CategoryController::class, 'search'])->name('categories.search');
+Route::any('/admin/categories/search', [App\Http\Controllers\Admin\CategoryController::class, 'search'])->name('categories.search');
 
 
 // Route::resource('/admin/categories', 'Admin\CategoryController@index');

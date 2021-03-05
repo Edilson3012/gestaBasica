@@ -8,6 +8,13 @@
         Categorias
     </h1>
 
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="{{ route('admin') }}">Dashboard</a></li>
+          <li class="breadcrumb-item active" aria-current="page"><a href="{{ route('categories') }}">Categorias</a></li>
+        </ol>
+    </nav>
+
 @stop
 
 @section('content')
