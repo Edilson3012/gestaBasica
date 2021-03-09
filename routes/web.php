@@ -19,6 +19,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/admin/products', [ProductController::class, 'index'])->name('product.index');
 Route::get('/admin/products/create', [ProductController::class, 'create'])->name('product.create');
+Route::post('/admin/products/store', [ProductController::class, 'store'])->name('product.store');
 
 
 Route::get('admin', function ($id) {
