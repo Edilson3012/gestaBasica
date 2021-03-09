@@ -25,7 +25,7 @@
                 </div>
                 <div class="card-body">
 
-                    @include('admin.categories.includes.alerts')
+                    @include('admin.includes.alerts')
 
                     <form action="{{ route('categories.update', $category->id_category) }}" method="POST" class="form">
                         <input type="hidden" name="_method" value="PUT">

@@ -24,7 +24,7 @@
                 </div>
                 <div class="card-body">
 
-                    @include('admin.categories.includes.alerts')
+                    @include('admin.includes.alerts')
 
                     <form action="{{ route('categories.store') }}" method="POST" class="form">
                         @include('admin.categories._partials.form')

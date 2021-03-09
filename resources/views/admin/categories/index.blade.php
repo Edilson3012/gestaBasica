@@ -39,7 +39,7 @@
         </div>
 
         <div class="col-md-12">
-            @include('admin.categories.includes.alerts')
+            @include('admin.includes.alerts')
             <div class="card card-primary">
                 <div class="card-header">Listagem de Categorias</div>
                 <div class="card-body">

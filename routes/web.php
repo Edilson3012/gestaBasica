@@ -18,6 +18,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/admin/products', [ProductController::class, 'index'])->name('product.index');
+Route::get('/admin/products/create', [ProductController::class, 'create'])->name('product.create');
+
 
 Route::get('admin', function ($id) {
     
