@@ -29,7 +29,7 @@
 
                     <form action="{{ route('categories.update', $category->id_category) }}" method="POST" class="form">
                         <input type="hidden" name="_method" value="PUT">
-                        @include('admin.categories._partials.form')
+                        @include('admin._partials.form')
                     </form>
                 </div>
             </div>

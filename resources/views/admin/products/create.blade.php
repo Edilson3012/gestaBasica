@@ -1,11 +1,11 @@
 @extends('adminlte::page')
 
-@section('title', 'Cadastrar Nova Categoria')
+@section('title', 'Cadastrar Novo Produto')
 
 @section('content_header')
     <h1>
         <a href="{{ route('categories') }}" class="btn btn-success">Voltar</a>
-        Cadastrar Nova Categoria
+        Cadastrar Novo Produto
     </h1>
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
@@ -20,7 +20,7 @@
         <div class="col-md-12">
             <div class="card card-success">
                 <div class="card card-header">
-                    Cadastro de Categoria
+                    Cadastro de Produto
                 </div>
                 <div class="card-body">
 
