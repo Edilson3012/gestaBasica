@@ -3,10 +3,18 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Models\Produto;
 use Illuminate\Http\Request;
 
 class ProductController extends Controller
 {
+    protected $produto;
+
+    public function __construct(Produto $produto)
+    {
+        $this->produto = $produto;
+    }
+
     /**
      * Display a listing of the resource.
      *
@@ -14,7 +22,11 @@ class ProductController extends Controller
      */
     public function index()
     {
-        return 'salvee';
+
+        $produtos = $this->produto->with('category')->get();
+
+        // dd($produtos);
+        return view('admin.products.index', compact('produtos'));
     }
 
     /**
