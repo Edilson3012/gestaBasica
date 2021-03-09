@@ -7,6 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Category extends Model
 {
+    protected $primaryKey = 'id_category';
+
     protected $fillable = ['tx_title', 'tx_url', 'tx_description'];
 
     public function getProdutos(){
