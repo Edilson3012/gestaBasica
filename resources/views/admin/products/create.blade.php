@@ -48,7 +48,7 @@
                         </div>
 
                         <div class="form-group">
-                            <input type="text" class="form-control" name="vl_price" placeholder="Nome">
+                            <input type="text" class="form-control" name="vl_price" placeholder="Preço">
                         </div>
 
                         <div class="form-group">
